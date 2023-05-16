@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBA"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Basic Settings -->
+        <TextView
+            android:id="@+id/basic_settings_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Settings"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Auto-fill -->
+        <Switch
+            android:id="@+id/auto_fill_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auto-fill"
+            android:checked="true"/>
+
+        <!-- Payment data saver -->
+        <Switch
+            android:id="@+id/payment_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment data saver"
+            android:checked="false"/>
+
+        <!-- Show passwords -->
+        <Switch
+            android:id="@+id/show_passwords_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show passwords"
+            android:checked="false"/>
+
+        <!-- Clear browsing data -->
+        <Button
+            android:id="@+id/clear_data_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear browsing data"
+            android:backgroundTint="?attr/colorError"/>
+
+        <!-- Disable browser history -->
+        <Switch
+            android:id="@+id/disable_history_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disable browser history"
+            android:checked="false"/>
+
+        <!-- Block pop-ups -->
+        <Switch
+            android:id="@+id/block_popups_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Block pop-ups"
+            android:checked="true"/>
+
+        <!-- Cookies -->
+        <Spinner
+            android:id="@+id/cookies_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:prompt="@string/cookies_prompt"
+            android:entries="@array/cookies_options"/>
+
+        <!-- Advanced Settings -->
+        <TextView
+            android:id="@+id/advanced_settings_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advanced Settings"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Dark mode -->
+        <Switch
+            android:id="@+id/dark_mode_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dark mode"
+            android:checked="false"/>
+
+        <!-- Notifications -->
+        <Switch
+            android:id="@+id/notifications_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:checked="true"/>
+
+        <!-- Search engine -->
+        <Spinner
+            android:id="@+id/search_engine_spinner"
+            android:layout_width = "match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:prompt="@string/search_engine_prompt"
+            android:entries="@array/search_engine_options"/>
+
+        <!-- Custom homepage -->
+        <EditText
+            android:id="@+id/homepage_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Custom homepage URL"
+            android:inputType="textUri"/>
+
+        <!-- Sync settings -->
+        <Switch
+            android:id="@+id/sync_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sync settings"
+            android:checked="true"/>
+
+        <!-- User agent -->
+        <Spinner
+            android:id="@+id/user_agent_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:prompt="@string/user_agent_prompt"
+            android:entries="@array/user_agent_options"/>
+
+        <!-- Disable images -->
+        <Switch
+            android:id="@+id/disable_images_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disable images"
+            android:checked="false"/>
+
+    </LinearLayout>
+</ScrollView>

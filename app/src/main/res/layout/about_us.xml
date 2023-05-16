@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_us_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CBA"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/about_us_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/burgerhome"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:src="@drawable/cooked" />
+
+    <TextView
+        android:id="@+id/about_us_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>

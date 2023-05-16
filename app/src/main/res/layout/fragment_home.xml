@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:paddingBottom="100dp"
+    android:background="#CBA"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/burgerhome"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:src="@drawable/burgerpic" />
+
+        <TextView
+            android:id="@+id/burgertext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Double-Stack Mushroom And Chicken Cheeseburger"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/paremsanhome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="chickenparemsan"
+            android:src="@drawable/checkienparmesan" />
+
+        <TextView
+            android:id="@+id/parmesantext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken Parmesan Hotdog"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pastapestohome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/pestopic"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/pestohome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesto"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stuffed_cucumbers_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/cucumber_stuffed_cherry_tomatoes"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/stuffed_cucumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cucumber Stuffed Cherry Tomatoes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ravioli_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/pestopic"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/ravioli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ravioli"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/Aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>

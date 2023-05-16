@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CookED_app</string>
+    <string name="title_home">Home</string>
+    <string name="title_Recipes">Recipes</string>
+    <string name="title_Courses">Courses</string>
+    <string name="title_Account">Account</string>
+    <string name="title_Settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="app_label">CookED</string>
+    <string name="action_add_recipe">Add Recipe</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_course">Course</string>
+    <string name="recipe_cuisine">Cuisine</string>
+    <string name="recipe_ingredients">Ingredients (List all ingredients here)</string>
+    <string name="recipe_steps">Steps (List all steps here)</string>
+    <string name="recipe_category">Category (Ex: Fast Food or Healthy)</string>
+    <string name="recipe_description">Description (Short description)</string>
+    <string name="submit_recipe">Add Recipe</string>
+    <string name="show_ingredients">Ingredients</string>
+    <string name="show_steps">Steps</string>
+    <string name="show_category">Category</string>
+    <string name="show_description">Description</string>
+    <string name="about">CookED is a mobile platform designed to enhance the social and educational experience of cooking, especially when people are unable to be in-person with others.
+        Our application allows users to cook together and share their notes, while also offering a range of features to help users learn and improve their culinary skills.
+        Our goal is to bring people together through cooking and socializing, and to make learning how to cook easier and more enjoyable for everyone.</string>
+    <string-array name="recipe_categories">
+        <item>All</item>
+        <item>Healthy</item>
+        <item>New</item>
+        <item>Fast Food</item>
+    </string-array>
+    <string name="user_agent_prompt">User agent:</string>
+    <string name="search_engine_prompt">Search engine:</string>
+    <string name="cookies_prompt">Cookies:</string>
+    <string-array name="search_engine_options">
+        <item>Google</item>
+        <item>Bing</item>
+        <item>DuckDuckGo</item>
+        <item>Yahoo</item>
+        <item>Ask Jeeves</item>
+        <item>AOL Search</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="cookies_options">
+        <item>Always allow cookies</item>
+        <item>Block third-party cookies</item>
+        <item>Block all cookies</item>
+        <item>Block cookies from specific sites</item>
+        <item>Clear cookies on exit</item>
+        <item>Ask every time</item>
+        <item>Never allow cookies</item>
+    </string-array>
+    <string-array name="user_agent_options">
+        <item>Default</item>
+        <item>Desktop</item>
+        <item>Mobile</item>
+        <item>Tablet</item>
+        <item>Custom</item>
+        <item>Googlebot</item>
+        <item>Bingbot</item>
+    </string-array>
+</resources>

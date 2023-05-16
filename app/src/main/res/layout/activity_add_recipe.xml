@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBA"
+    tools:context=".Activities.AddRecipeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="recipe name"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/recipe_name"
+            android:padding="25dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:id="@+id/et_recipe_cuisine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="recipe cuisine"
+            android:inputType="text"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/recipe_cuisine"
+            android:padding="25dp"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:id="@+id/et_recipe_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="recipe course"
+            android:inputType="text"
+            android:hint="@string/recipe_course"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:padding="25dp"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:id="@+id/et_recipe_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="recipe ingredients"
+            android:inputType="textMultiLine"
+            android:hint="@string/recipe_ingredients"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:padding="25dp"
+            android:singleLine="false"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:id="@+id/et_recipe_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="recipe steps"
+            android:inputType="textMultiLine"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:hint="@string/recipe_steps"
+            android:padding="25dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="false"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:id="@+id/et_recipe_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="recipe steps"
+            android:inputType="textMultiLine"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:hint="@string/recipe_category"
+            android:padding="25dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="false"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:id="@+id/et_recipe_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="recipe steps"
+            android:inputType="textMultiLine"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:hint="@string/recipe_description"
+            android:padding="25dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="false"
+            android:background="@drawable/edit_text_border"/>
+
+        <Button
+            android:id="@+id/btn_submit_recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_recipe"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
